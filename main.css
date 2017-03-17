@@ -1,0 +1,58 @@
+*{
+  height: 100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+
+.background{
+  height: 670px;
+  width:1320px;
+  position: relative;
+  background-image: url("garden.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.butterfly{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.butterfly:hover{
+  cursor: pointer;
+}
+
+.score{
+  position: absolute;
+  top: 500px;
+  left:1200px;
+  font-size: 6em;
+  font-family: 'Oswald',sans-serif;
+  color:white;
+  font-weight: bold;
+  animation: size 0.50s infinite;
+}
+
+@keyframes size {
+  0% {font-size: 6em;}
+  100% {font-size: 8em;}
+}
+
+.text{
+  font-size: 2em;
+  font-family: 'Oswald',sans-serif;
+  color:white;
+}
+
+.text p{
+  position: absolute;
+  bottom: -50px;
+  font-size: 0.5em;
+  font-family: 'lato',sans-serif;
+  font-weight: bold;
+  margin-left: 50px;
+}
