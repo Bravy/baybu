@@ -19,7 +19,7 @@
   height: 100px;
   width: 100px;
   position: absolute;
-  border-radius: 50%;
+  transition: all 5s ease;
 }
 
 .butterfly:hover{
